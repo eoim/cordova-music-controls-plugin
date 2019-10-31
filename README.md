@@ -7,7 +7,7 @@ Music controls for Cordova applications. Display a 'media' notification with pla
 ## Supported platforms
 - Android (4.1+)
 - Windows (10+, by [filfat](https://github.com/filfat))
-- iOS 8+ (by [0505gonzalez](https://github.com/0505gonzalez))
+- iOS 13+ (by [ghenry22](https://github.com/ghenry22))
 
 ## Installation
 `cordova plugin add https://github.com/homerours/cordova-music-controls-plugin`
@@ -18,7 +18,7 @@ Music controls for Cordova applications. Display a 'media' notification with pla
 MusicControls.create({
     track       : 'Time is Running Out',		// optional, default : ''
 	artist      : 'Muse',						// optional, default : ''
-    cover       : 'albums/absolution.jpg',		// optional, default : nothing
+ 	cover       : 'albums/absolution.jpg',		// optional, default : nothing
 	// cover can be a local path (use fullpath 'file:///storage/emulated/...', or only 'my_image.jpg' if my_image.jpg is in the www folder of your app)
 	//			 or a remote url ('http://...', 'https://...', 'ftp://...')
 	isPlaying   : true,							// optional, default : true
