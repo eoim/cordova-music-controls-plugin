@@ -47,9 +47,9 @@ public class MusicControlsNotification {
 		// use channelid for Oreo and higher
 		if (Build.VERSION.SDK_INT >= 26) {
 			// The user-visible name of the channel.
-			CharSequence name = "cordova-music-controls-plugin";
+			CharSequence name = "Music controls";
 			// The user-visible description of the channel.
-			String description = "cordova-music-controls-plugin notification";
+			String description = "Buttons to control the audio player from anywhere in your phone";
 
 			int importance = NotificationManager.IMPORTANCE_LOW;
 
